@@ -15,7 +15,8 @@ document.getElementById('login-btn')
 
     if (mobileNumberConvertor === mobileNumber && pinNumberConvertor === pinNumber) {
        window.location.href="./main.html"
-    } else {
-        console.log("invalid");
+    }
+    else{
+     console.log('invalid')
     }
 });
